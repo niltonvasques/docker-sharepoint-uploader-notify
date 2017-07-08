@@ -44,7 +44,7 @@ file_path = "/tmp/#{$file_name}"
 
 puts "Uploading file..."
 folder.add_file($file_name, File.read(file_path))
-$file_link = "https://#{$ssp_url}/#{$ssp_site}/#{$ssp_folder}/#{$ssp_folder}"
+$file_link = "https://#{$ssp_url}/#{$ssp_site}/#{$ssp_folder}/#{$file_name}"
 items = site.list($ssp_folder).find_items(name: $file_name)
 
 unless items.empty?
