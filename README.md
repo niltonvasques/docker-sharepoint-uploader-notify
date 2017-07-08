@@ -1,6 +1,6 @@
 # Mailing Sharepoint Storage Docker Container
 
-### This script upload a file to sharepoint and send a mail with this file link
+### This docker container upload a file to sharepoint and send a mail with this file link
 
 ### Usage
 
