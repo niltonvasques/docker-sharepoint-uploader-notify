@@ -30,8 +30,6 @@ $ssp_url = ENV['SHAREPOINT_URL']
 $ssp_site = ENV['SHAREPOINT_SITE']
 $ssp_folder = ENV['SHAREPOINT_FOLDER']
 
-ap ENV
-
 site = Sharepoint::Site.new $ssp_url, $ssp_site
 
 puts "Authenticating in sharepoint..."
